@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Paws and Whiskers Shelter</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          src="logopaw.svg"
+          alt="This is the logo of the Paws and Whiskers Shelter"
+        />
+      </div>
+      <ul>
+        <li><a href="secondpage.html">ADOPT</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <div>
+          <button id="button">DONATE</button>
+        </div>
+      </ul>
+    </nav>
+    <div id="hero">
+      <div id="herosection">
+        <h1 id="heading1">FIND YOUR NEW BEST FRIEND TODAY</h1>
+        <p class="text">
+          Our shelter is filled with adorable pets waiting for someone to give
+          them a second chance at happiness
+        </p>
+        <button class="adoptnow">
+          <form action="secondpage.html"></form>
+          ADOPT NOW
+        </button>
+      </div>
+      <div id="kitten">
+        <img src="kitten2.jpg" alt="This is a picture of a kitten" />
+      </div>
+    </div>
+    <div id="choices">
+      <div class="all">
+        <img class="icon" src="dog.svg" alt="This is an icon of a dog" />
+        <h2 class="animals">DOGS</h2>
+        <p class="paragraph">
+          We have over 200 dogs waiting for you to give them a new home.
+        </p>
+      </div>
+      <div class="all">
+        <img class="icon" src="cat.svg" alt="This is an icon of a cat" />
+        <h2 class="animals">CATS</h2>
+        <p class="paragraph">
+          Are you looking for a cat that would be a new member of your family?
+          We house over 150 cats, from which you can find your new forever
+          friend.
+        </p>
+      </div>
+      <div class="all">
+        <img class="icon" src="rabbit.svg" alt="This is an icon of a rabbit" />
+        <h2 class="animals">RODENTS</h2>
+        <p class="paragraph">
+          If you are looking for a small pet, check the tiniest members of our
+          shelter!
+        </p>
+      </div>
+    </div>
+
+    <section id="feedback" class="container mt-5 feedback-section">
+      <h2 class="section-title">HAPPY TAILS</h2>
+      <p class="section-description">
+        Read what people are saying about their experiences with our adopted
+        pets! Here are some heartwarming stories from families who found their
+        perfect companions at Paws & Whiskers Shelter.
+      </p>
+      <div id="carouselFeedback" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex">
+              <img
+                src="review2.png"
+                class="rounded-circle testimonial-image"
+                alt="Person 1"
+              />
+              <div class="ml-3">
+                <p class="testimonial-text">
+                  "We adopted Max from Paws & Whiskers Shelter, and he's brought
+                  so much joy into our lives! He's the most loyal and loving cat
+                  we could have asked for"
+                </p>
+                <p class="testimonial-author">- Sarah & David</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <img
+                src="review.png"
+                class="rounded-circle testimonial-image"
+                alt="Person 2"
+              />
+              <div class="ml-3">
+                <p class="testimonial-text">
+                  "I adopted my best friend from this shelter. It was the best
+                  decision ever!"
+                </p>
+                <p class="testimonial-author">- Olek</p>
+              </div>
+            </div>
+          </div>
+          <!-- Add more carousel items as needed -->
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselFeedback"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselFeedback"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <footer>
+      <div class="footer-content">
+        <img src="/logopaw.svg" alt="Logo" />
+        <p>Contact us: info@example.com | Phone: +123456789</p>
+        <p>&copy; 2020 Paws and Whiskers Shelter. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
